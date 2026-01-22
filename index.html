@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Петербург сквозь года</title>
+
+    <!-- fonts -->
+    <link rel="stylesheet" href="./assets/font/BERNIERDISTRESSED-REGULAR.OTF">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap 4.6.2 -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- style -->
+    <link rel="stylesheet" href="./assets/font/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <!-- fa-icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+    <!-- header -->
+    <header>
+        <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white shadow">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img class="nav-logo" src="./assets/images/sobaka.png" alt="logo">
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+                    aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav mx-auto d-flex justify-content-between navbar-links">
+                        <li class="nav-item">
+                            <a class="nav-link scroll-to btn text-black" href="#about">О чём курс</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll-to btn text-black" href="#price">Записаться на курс</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link scroll-to btn text-black" href="#contacts">Контакты</a>
+                        </li>
+                    </ul>
+                    <span class="navbar-messengers">
+                        <a href="#"><img class="msg mr-2 tg" src="./assets/images/telegram.png" alt="telegram"></a>
+                        <a href="#"><img class="msg wts" src="./assets/images/whatsapp.png" alt="whatsapp"></a>
+                    </span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- hero-block -->
+        <section class="hero d-flex align-items-center">
+            <div class="container">
+                <div class="row align-items-center py-5">
+                    <div class="col-12 col-md-6">
+                        <h1 class="font-title">
+                            <span class="title c-brown display-2"><span class="st-pb">ПЕТЕРБУРГ</span><br>СКВОЗЬ
+                                ГОДА</span><br>
+                            <span class="author c-blue">с Владимиром Заруцким</span>
+                        </h1>
+                        <ul class="list my-3">
+                            <li class="items">Нарисуйте <span class="c-blue font-weight-bold">12 пейзажей</span>: от
+                                ретро Петербурга до сегодняшних дней</li>
+                            <li class="items">Изучите <span class="c-blue font-weight-bold">способы передачи
+                                    особенностей архитектуры</span> с помощью акварели</li>
+                            <li class="items">Научитесь передавать <span class="c-blue font-weight-bold">художественные
+                                    образы и замыслы</span></li>
+                        </ul>
+
+                        <a href="#who"
+                            class="btn btn-warning btn-gradient scroll-to btn-lg font-weight-light text-white py-3 px-5">
+                            УЗНАТЬ ПОДРОБНОСТИ
+                        </a>
+                    </div>
+                    <div class="col-12 col-md-6 text-center">
+                        <img class="img-fluid" src="./assets/images/imageBanner.png" alt="photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="block-info">
+            <div class="container ">
+                <div class="row no-gutters text-center py-4">
+                    <div class="block-info-item col-6 col-md-3 px-2 mb-3 mb-md-0">
+                        <div class="block-info__item px-3 py-4">
+                            <strong class="c-blue">Материал:</strong><br>акварель
+                        </div>
+                    </div>
+                    <div class="block-info-item col-6 col-md-3 px-2 mb-3 mb-md-0">
+                        <div class="block-info__item px-3 py-4">
+                            <strong class="c-blue">Количество<br>картин:</strong> 12
+                        </div>
+                    </div>
+                    <div class="block-info-item col-6 col-md-3 px-2 mb-3 mb-md-0">
+                        <div class="block-info__item px-3 py-4">
+                            <strong class="c-blue">Продолжительность<br> курса:</strong> 20 часов
+                        </div>
+                    </div>
+                    <div class="block-info-item col-6 col-md-3 px-2">
+                        <div class="block-info__item px-3 py-4">
+                            <strong class="c-blue">Доступ:</strong><br>бессрочный<br class="for-mobile">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- for whom -->
+        <section id="who">
+            <div class="container" id="about">
+                <div class="row mt-5 py-5 d-flex align-items-center no-gutters">
+                    <div class="who col-12 col-md-7 d-flex justify-content-center custom-border">
+                        <div class="who-content">
+                            <h2 class="font-title display-3 c-brown">Для кого будет <br>полезен курс</h2>
+                            <p class="desc-who">
+                                На моем курсе «Петербург сквозь года с Владимиром Заруцким» вы научитесь рисовать
+                                акварелью
+                                городские пейзажи. Этот курс для тех, кто хочет <span
+                                    class="c-blue font-weight-bold">научиться или
+                                    усовершенствовать свои навыки в
+                                    акварели.</span> Уверен, вам понравится!
+                            </p>
+                        </div>
+                    </div>
+                    <div class="img-right col-12 col-md-5 text-center">
+                        <div class="image-wrap custom-border">
+                            <img class="image-fluid" src="./assets/images/imageBlock.jpg" alt="Собор">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- materials -->
+        <section id="materials">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 text-center mb-4">
+                        <h2 class="font-title c-brown display-3">Материалы на курс</h2>
+                    </div>
+                </div>
+
+                <div class="row text-center">
+                    <div class="col-6 col-md-3 material-item d-flex flex-column align-items-center mb-4 mb-md-0"
+                        data-target="#mat1">
+                        <img src="./assets/images/iconPalitra.png" alt="Краски" class="material-item__img mb-4">
+                        <span class="c-blue">Краски</span>
+                        <div class="dropdown dropright drop-1">
+                            <a type="button" class="btn drop-btn" data-toggle="dropdown" aria-expanded="false">
+                                <span class="materials-indicator materials-indicator-1">
+                                    <span class="materials-indicator-chevron materials-indicator-chevron-1"></span>
+                                </span>
+                                СПИСОК КРАСОК
+                            </a>
+                            <div class="dropdown-menu drop-text material-drop">
+                                <div class="drop-pad d-flex mt-4 ml-3">
+                                    <ul>
+                                        <li>Кобальт лазурно-голубой</li>
+                                        <li>Горизонт синий</li>
+                                        <li>Кобальт бирюзовый</li>
+                                        <li>Церулеум</li>
+                                        <li>Сиена натуральная</li>
+                                        <li>Охра красная</li>
+                                    </ul>
+                                    <ul>
+                                        <li>Сиена жженая</li>
+                                        <li>Пиррол оранжевый</li>
+                                        <li>Кадмий красный светлый</li>
+                                        <li>Опера</li>
+                                        <li>Кобальт</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 material-item d-flex flex-column align-items-center mb-4 mb-md-0"
+                        data-target="#mat2">
+                        <img src="./assets/images/iconPaper.png" alt="Кисти" class="material-item__img mb-4">
+                        <span class="c-blue">Кисти</span>
+                    </div>
+
+                    <div class="col-6 col-md-3 material-item d-flex flex-column align-items-center mb-4 mb-md-0"
+                        data-target="#mat3">
+                        <img src="./assets/images/iconPaper.png" alt="Бумага" class="material-item__img mb-4">
+                        <span class="c-blue">Бумага</span>
+                        <span class="text-black">300гр/м, хлопок Saunders<br> Waterford, Палаццо</span>
+                    </div>
+
+                    <div class="col-6 col-md-3 material-item d-flex flex-column align-items-center" data-target="#mat4">
+                        <img src="./assets/images/iconPencil.png" alt="Карандаш" class="material-item__img mb-4">
+                        <span class="c-blue">Карандаш 2В, 3В</span>
+                    </div>
+                </div>
+                <div class="col divider mt-3"></div>
+                <div class="col-12">
+                    <p class="text-recommend text-black text-center mt-4 pb-5">Всё это рекомендации, не обязательно
+                        использовать то же самое!</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- price -->
+        <section id="price">
+            <div class="price container py-5">
+                <div class="row text-center mb-4">
+                    <div class="col-12">
+                        <h2 class="font-title c-brown display-3 mt-5">Тарифы</h2>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="border py-1 text-center bg-light">
+                            <div class="tariff-title py-2">
+                                <h4 class="font-title text-white pt-2">Рисую сам</h4>
+                            </div>
+                            <img src="./assets/images/tarif.png" alt="Тариф: Рисую сам" class="tariff-img img-fluid">
+                            <ul class="info-tarif">
+                                <li class="items mt-4 mb-2">12 пейзажей: от ретро Птербург<br>до сегодняшних дней</li>
+                                <li class="items mb-2">17 уроков: теория + практика + <br> развивающие упражнения</li>
+                                <li class="items mb-2 text-opacity"><s>Личная часовая онлайн-<br>консультация с
+                                        экспертом курса</s></li>
+                            </ul>
+                            <p class="old-price font-weight-bold c-blue">7 990 ₽</p>
+                            <p class="new-price font-weight-bold c-blue">4 990 ₽</p>
+                            <div class="currency mb-4 mt-3 d-flex justify-content-center flex-wrap">
+                                <a data-code="RUB" href="javascript:void(0)"
+                                    class="currency-code btn-gradient d-flex align-items-center justify-content-center text-white font-weight-bold active mr-2 mb-2">₽</a>
+                                <a data-code="USD" href="javascript:void(0)"
+                                    class="currency-code btn-gradient d-flex align-items-center justify-content-center text-white font-weight-bold mb-2">$</a>
+                            </div>
+                            <button class="btn btn-gradient text-white text-uppercase btn-lg mb-4">Принять
+                                участие</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4 mb-4 mb-md-0">
+                        <div class="border p-1 text-center bg-light">
+                            <div class="tariff-title py-2">
+                                <h4 class="font-title text-white pt-2">С поддержкой</h4>
+                            </div>
+                            <img src="./assets/images/tarif.png" alt="Тариф: С поддержкой" class="tariff-img img-fluid">
+                            <ul class="info-tarif">
+                                <li class="items mt-4 mb-2">12 пейзажей: от ретро Птербург<br>до сегодняшних дней</li>
+                                <li class="items mb-2">17 уроков: теория + практика + <br> развивающие упражнения</li>
+                                <li class="items mb-2 text-opacity"><s>Личная часовая онлайн-<br>консультация с
+                                        экспертом курса</s></li>
+                                <li class="items mb-2">🪙+1000 бонусных рублей!<br>Можно потратить при покупке<br>курса
+                                    на следующем марафоне.<br>Сгорают через 3 месяца.</li>
+                            </ul>
+                            <p class="old-price font-weight-bold c-blue">9 990 ₽</p>
+                            <p class="new-price font-weight-bold c-blue">5 990 ₽</p>
+                            <div class="currency mb-4 mt-3 d-flex justify-content-center flex-wrap">
+                                <a data-code="RUB" href="javascript:void(0)"
+                                    class="currency-code btn-gradient d-flex align-items-center justify-content-center text-white font-weight-bold active mr-2 mb-2">₽</a>
+                                <a data-code="USD" href="javascript:void(0)"
+                                    class="currency-code btn-gradient d-flex align-items-center justify-content-center text-white font-weight-bold mb-2">$</a>
+                            </div>
+                            <button class="btn btn-gradient text-white text-uppercase btn-lg mb-4">Принять
+                                участие</button>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-4">
+                        <div class="border p-1 text-center bg-light">
+                            <div class="tariff-title py-2">
+                                <h4 class="font-title text-white pt-2">VIP</h4>
+                            </div>
+                            <img src="./assets/images/ColPicture.jpg" alt="Тариф: VIP" class="tariff-img img-fluid">
+                            <ul class="info-tarif">
+                                <li class="items mt-4 mb-2">12 пейзажей: от ретро Птербург<br>до сегодняшних дней</li>
+                                <li class="items mb-2">17 уроков: теория + практика + <br> развивающие упражнения</li>
+                                <li class="items mb-2">Личная часовая онлайн-<br>консультация с экспертом курса</li>
+                            </ul>
+                            <p class="old-price font-weight-bold c-blue">7 990 ₽</p>
+                            <p class="new-price font-weight-bold c-blue">15 990 ₽</p>
+                            <div class="currency mb-4 mt-3 d-flex justify-content-center flex-wrap">
+                                <a data-code="RUB" href="javascript:void(0)"
+                                    class="currency-code btn-gradient d-flex align-items-center justify-content-center text-white font-weight-bold active mr-2 mb-2">₽</a>
+                                <a data-code="USD" href="javascript:void(0)"
+                                    class="currency-code btn-gradient d-flex align-items-center justify-content-center text-white font-weight-bold mb-2">$</a>
+                            </div>
+                            <button class="btn btn-gradient text-white text-uppercase btn-lg mb-4">Принять
+                                участие</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- quest -->
+        <section id="faq">
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12">
+                        <h2 class="font-title c-brown display-3 text-center mt-5">Частые вопросы</h2>
+
+                        <div class="accordion pt-4" id="faqAccordion">
+                            <div class="card">
+                                <div class="card-header" id="headingOne">
+                                    <h5 class="mb-0">
+                                        <button
+                                            class="btn btn-link d-flex justify-content-between align-items-center w-100 text-left pl-3 pr-3"
+                                            type="button" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <span>Я совсем не умею рисовать. Стоит ли мне идти на курс?</span>
+                                            <i class="fas fa-chevron-right accordion-icon"></i>
+                                        </button>
+                                    </h5>
+                                </div>
+
+                                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne"
+                                    data-parent="#faqAccordion">
+                                    <div class="card-body pl-3 pr-3 pt-1">
+                                        Конечно стоит! Курс специально построен так что сначала идут простые картины а
+                                        потом
+                                        более сложные, так что вы успеете влиться в процесс и достичь высоких
+                                        результатов!
+                                        <br><br>
+                                        Для опытных художников курс также будет полезен. Вы сможете ещё больше
+                                        отработать
+                                        технику, а также увеличить свою насмотренность.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Второй элемент -->
+                            <div class="card">
+                                <div class="card-header" id="headingTwo">
+                                    <h5 class="mb-0">
+                                        <button
+                                            class="btn btn-link d-flex justify-content-between align-items-center w-100 text-left pl-3 pr-3 pt-4 pb-4 collapsed"
+                                            type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                            aria-expanded="false" aria-controls="collapseTwo">
+                                            <span>Как устроена обратная связь?</span>
+                                            <i class="fas fa-chevron-right accordion-icon"></i>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#faqAccordion">
+                                    <div class="card-body pl-3 pr-3 pt-1">
+                                        В конце урока вы выложите фотографию своей работы. У преподавателя будет
+                                        возможность
+                                        оставить к вашей работе текстовый, графический (пометки на рисунке), а также
+                                        аудио-комментарий. <br><br>
+                                        В нижней части каждого урока будет блок комментариев, где можно задавать любые
+                                        вопросы
+                                        по обучению.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- footer -->
+    <footer class="footer pt-5 pb-5" id="contacts">
+        <div class="container">
+            <div class="row pt-5 pb-5">
+                <div class="col d-flex flex-column">
+                    <a href="#" class="footer__link text-center text-black">Политика приватности</a>
+                    <p class="text-center mt-2">По всем вопросам вы можете писать в службу поддержки:</p>
+                    <a href="mailto:admin@sobakarisovaka.ru"
+                        class="footer__link text-center text-black">admin@sobakarisovaka.ru</a>
+                    <p class="text-center copyright mt-2">© 2026, ИП Косенко Андрей Владимирович, ОГРН 308614728400011
+                    </p>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <button class="chat-btn" title="Открыть чат" onclick="alert('Что-то пошло не так =D')">
+        <i class="fa fa-comments"></i>
+    </button>
+
+    <!-- scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $('.material-item').on('click', function () {
+            $('.material-list').addClass('d-none');
+            $($(this).data('target')).removeClass('d-none');
+        });
+
+        $('.scroll-to').on('click', function (e) {
+            e.preventDefault();
+            $('html, body').animate({
+                scrollTop: $($(this).attr('href')).offset().top - 70
+            }, 600);
+        });
+    </script>
+    <script src="./assets/scripts/script.js"></script>
+</body>
+
+</html>
